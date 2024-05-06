@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        header: ["SF-Pro-Display", "sans-serif"],
+        main: ["var(--font-garamond)", "sans-serif"],
+        title: ["var(--font-garamond)", "sans-serif"],
+        body: ["SF-Pro-Display", "sans-serif"],
+      },
     },
   },
   plugins: [],
