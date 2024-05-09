@@ -16,8 +16,8 @@ export default function Home() {
         </div>
       </div>
       <div className="font-main mt-40 text-5xl text-white max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-        I’m a dynamic and result-driven product designer <br />
-        specialized in crafting data and AI driven experiences.
+        I’m a product designer that translate data and AI insights<br />
+        into impactful user experiences.
       </div>
       <div className="font-main mt-16 text-5xl text-white max-md:mt-10 max-md:max-w-full max-md:text-4xl">
         I thrive on solving complex problems, whether it means
@@ -41,10 +41,16 @@ export default function Home() {
                 Designing for the (almost) <br />
                 first InsurTech SaaS
               </div>
-              <a href="https://jiahuihan.notion.site/Designing-for-the-almost-first-InsurTech-SaaS-d18a1acbf6a64960bb86643ab94e8fc1?pvs=4" 
-              className="mt-2.5 text-xl max-md:max-w-full hover:underline" target="_blank" rel="noopener noreferrer">
-                Read More
-              </a>
+              <div className="mt-12 text-xl max-md:max-w-full">
+                <a href="https://jiahuihan.notion.site/Designing-for-the-almost-first-InsurTech-SaaS-d18a1acbf6a64960bb86643ab94e8fc1?pvs=4" 
+                className="text-xl max-md:max-w-full hover:underline" target="_blank" rel="noopener noreferrer">
+                  Case Study on Notion &#8599; 
+                </a>
+              </div>
+            
+            
+            
+            
             </div>
           </div>
         </div>
@@ -56,7 +62,7 @@ export default function Home() {
               <div className="font-title text-4xl max-md:max-w-full">
                 Cards of the Masters: Reimagining AI conversations{" "}
               </div>
-              <div className="mt-2.5 text-xl max-md:max-w-full">Coming Soon</div>
+              <div className="mt-12 text-xl max-md:max-w-full">Coming Soon</div>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[67%] max-md:ml-0 max-md:w-full">
@@ -82,7 +88,7 @@ export default function Home() {
               <div className="font-title text-4xl max-md:max-w-full">
                 Hacking PowerBI Dashboards for goods
               </div>
-              <div className="mt-2.5 text-xl max-md:max-w-full">Coming Soon</div>
+              <div className="mt-12 text-xl max-md:max-w-full">Coming Soon</div>
             </div>
           </div>
         </div>
