@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { EB_Garamond } from "next/font/google";
+import { Karla, Cormorant_Garamond, Nanum_Myeongjo } from "next/font/google";
 import "./globals.css";
 
-const garamond = EB_Garamond({ subsets: ["latin"], variable: "--font-garamond" });
+const garamond = Nanum_Myeongjo({subsets: ["latin"], weight:"400", variable:"--font-garamond"})
+const karla = Karla({subsets: ["latin"], weight:"400", variable:"--font-karla"})
 
 export const metadata: Metadata = {
   title: "Jessie Han | Product Designer",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body className={garamond.variable}>{children}</body>
+    <body className={`${garamond.variable} ${karla.variable}`}>{children}</body>
     </html>
   );
 }
