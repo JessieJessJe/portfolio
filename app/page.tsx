@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div>
       <div className="font-main mt-40 text-5xl leading-tight text-slate-100 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-        I’m a <RainbowText text="product designer"/> that translate data and AI insights<br />
+        I am a <RainbowText text="product designer"/> that translate data and AI insights<br />
         into impactful user experiences.
       </div>
       <div className="font-main mt-16 text-5xl leading-tight text-slate-100 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
