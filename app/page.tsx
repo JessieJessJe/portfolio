@@ -59,7 +59,7 @@ export default function Home() {
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col justify-center px-6 pt-16 text-slate-100 max-md:px-5 max-md:max-w-full">
               <div className="font-title leading-tight text-4xl max-md:max-w-full">
-                A Solo Designer's Journey in Capturing Reinsurance Treaty Terms 
+                A Solo Designer&apos;s Journey in Capturing Reinsurance Treaty Terms 
               </div>
               <div className="mt-12 text-xl max-md:max-w-full">
                 <a href="https://jiahuihan.notion.site/Designing-for-the-almost-first-InsurTech-SaaS-d18a1acbf6a64960bb86643ab94e8fc1?pvs=4" 
