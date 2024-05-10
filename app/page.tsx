@@ -17,12 +17,12 @@ const RainbowText = ({ text }) => {
 ];
 
   const letters = text.split('').map((char, index) => (
-    <a key={index} className={`${colors[index % colors.length]} font-highlight`}>
+    <span key={index} className={`${colors[index % colors.length]} font-highlight`}>
       {char}
-    </a>
+    </span>
   ));
 
-  return <a>{letters}</a>;
+  return <>{letters}</>;
 };
 
 

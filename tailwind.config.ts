@@ -14,6 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
+        highlight :["var(--font-karla)", "sans-serif"],
         header: ["SF-Pro-Display", "sans-serif"],
         main: ["var(--font-garamond)", "sans-serif"],
         title: ["var(--font-garamond)", "sans-serif"],
