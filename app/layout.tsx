@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Karla, Nanum_Myeongjo } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const garamond = Nanum_Myeongjo({subsets: ["latin"], weight:"400", variable:"--font-garamond"})
 const karla = Karla({subsets: ["latin"], weight:"400", variable:"--font-karla"})
@@ -18,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body className={`${garamond.variable} ${karla.variable}`}>{children}<Analytics /></body>
+    <body className={`${garamond.variable} ${karla.variable}`}>{children}
+    <Analytics />
+    <SpeedInsights />
+    </body>
     </html>
   );
 }
