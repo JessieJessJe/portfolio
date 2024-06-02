@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Karla, Cormorant_Garamond, Nanum_Myeongjo } from "next/font/google";
+import { Karla, Nanum_Myeongjo } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 const garamond = Nanum_Myeongjo({subsets: ["latin"], weight:"400", variable:"--font-garamond"})
 const karla = Karla({subsets: ["latin"], weight:"400", variable:"--font-karla"})
